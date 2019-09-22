@@ -1,19 +1,13 @@
 /*
-
-As of 09/09/2019
-
+As of 09/29/2019 added new codes from r/borderlands3 - ck
 vault type: cid = 5261
 diamond type: cid = 5262
 email type: cid = 5264
 creator code: cid = 5263
 boost type: 5721
-
 After login, navigate to
 https://2kgames.crowdtwist.com/ -- This is a blank page, as there is no landing page
 https://2kgames.crowdtwist.com/widgets/t/code-redemption/9902/#2 -- This is one of the components of the redemption page, if you'd rather see that
-
-
-
 */
 
 var badcodes = [];
@@ -86,7 +80,14 @@ var EMAILS = [
     "MADSKILLZ",
     "ITSHERE",
 	"JABBER",
-	"Unblinkingeye"
+	"Unblinkingeye",
+    "ALMOSTTHERE",
+    "OVERONEBILLION",
+    "OVERABILLION",
+    "ALLBORDERLANDSALLDAY",
+    "PS4MAYHEM",
+    "DONTFORGET",
+    "THEBORDERLANDSSHOW"				
 ]
 
 var CREATORS = [
@@ -114,7 +115,13 @@ var CREATORS = [
     "GRIMMBONEZE3",
     "CohhVIP",
     "Cure4Kids",
-    "GREGORONKH"
+    "GREGORONKH",
+    "bonjwa-bl3launch",
+    "EARLYACCESS",
+    "PIETSMIET-BL3LAUNCH",
+    "LARALOFT-BL3LAUNCH",
+    "DOKTORFROID-BL3LAUNCH"
+			
 ]
 
 var VAULTS = [
@@ -204,7 +211,10 @@ var VAULTS = [
     "vip-paxagainstthewall",
     "SEVENDAYS",
     "AIRLEMAGVIP",
-	"Dreamlandvip"
+	"Dreamlandvip",
+    "DIGISTRUCT",
+    "ITSABOUTTIME"
+    	
 ]
 
 
@@ -309,7 +319,6 @@ async function main() {
 main();
 
 /*
-
 await fetch('https://2kgames.crowdtwist.com/code-redemption-campaign/redeem?cid=5263', {
      method: 'POST',
      body: JSON.stringify({
@@ -319,5 +328,4 @@ await fetch('https://2kgames.crowdtwist.com/code-redemption-campaign/redeem?cid=
          'Content-type' : 'application/json'
      }
 })
-
 */
